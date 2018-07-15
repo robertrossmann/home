@@ -13,5 +13,8 @@
  * ```
  */
 
+import crawler from './crawler'
+
 export {
+  crawler,
 }

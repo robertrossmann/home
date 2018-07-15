@@ -8,6 +8,8 @@ describe('Atlas: components', () => {
   })
 
   it('has all actions', () => {
-    expect(atlas.actions).to.be.empty()
+    expect(atlas.actions).to.have.all.keys([
+      'crawler',
+    ])
   })
 })

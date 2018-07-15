@@ -19,5 +19,12 @@
  * ```
  */
 
+const actions = {
+  crawler: {
+    'service:browser': 'browser',
+  },
+}
+
 export {
+  actions,
 }
