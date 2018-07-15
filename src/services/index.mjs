@@ -13,5 +13,8 @@
  * ```
  */
 
+import { Service as browser } from '@home/puppeteer'
+
 export {
+  browser,
 }

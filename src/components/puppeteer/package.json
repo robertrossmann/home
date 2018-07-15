@@ -1,0 +1,16 @@
+{
+  "name": "@home/puppeteer",
+  "description": "Puppeteer as an @atlas.js service",
+  "version": "1.0.0",
+  "author": "Robert Rossmann <rr.rossmann@me.com>",
+  "engines": {
+    "node": "^10",
+    "npm": "^6"
+  },
+  "license": "BSD-3-Clause",
+  "main": "src",
+  "dependencies": {
+    "@atlas.js/service": "^1.1.1",
+    "puppeteer": "^1.6.0"
+  }
+}

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Robert Rossmann <rr.rossmann@me.com>",
   "dependencies": {
-    "@atlas.js/atlas": "^2.1.0"
+    "@atlas.js/atlas": "^2.1.0",
+    "@home/puppeteer": "file:src/components/puppeteer"
   },
   "devDependencies": {
     "@atlas.js/cli": "^1.0.0",
