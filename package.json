@@ -8,7 +8,7 @@
     "@home/puppeteer": "file:src/components/puppeteer"
   },
   "devDependencies": {
-    "@atlas.js/cli": "^1.0.0",
+    "@atlas.js/cli": "^1.1.0",
     "@babel/cli": "^7.0.0-beta.53",
     "@babel/core": "^7.0.0-beta.53",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.53",
