@@ -1,4 +1,4 @@
-import path from 'path'
+/* eslint-disable no-await-in-loop */
 import { Action } from '@atlas.js/atlas'
 import * as drivers from './drivers'
 
@@ -15,7 +15,11 @@ class Crawler extends Action {
       const page = await browser.newPage()
 
       await page.goto(driver.url)
-      await page.screenshot({ path: path.resolve(this.atlas.root, '..', 'seznam.png') })
+      const elements = await page.$$(driver.selector)
+      const urls = await Promise.all(elements.map(element => driver.parseUrl(element)))
+
+      this.log.info({ urls }, 'selector results')
+
       await page.close()
     }
   }
